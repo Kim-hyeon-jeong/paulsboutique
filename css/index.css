@@ -6,7 +6,7 @@ header{
 header .headTop{
     display: flex;
     justify-content: space-between;
-    padding-top:50px;
+    padding-top:20px;
 }
 h1>a{
     color:white;
