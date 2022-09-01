@@ -7,6 +7,9 @@ $(function(){
         if(wWidth > 880){
             $(".navRe").removeClass("active");
         }
+        if(wWidth < 560){
+            $(".headTop").css("padding-top","20px");
+        }
     })
     
     $(".ham").click(function(){
@@ -111,7 +114,7 @@ $(function(){
             $(".Gnb a").css("color","white");
             $("#hamimg").attr("src","images/hamBtn.png");
             $("header").css("background","transparent");
-            $(".headTop").css("padding-top","50px");
+            $(".headTop").css("padding-top","20px");
         }
         lastScroll = scroll;
     })
