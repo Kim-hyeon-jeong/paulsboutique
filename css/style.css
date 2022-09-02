@@ -1,0 +1,41 @@
+/* 모든홈피 공통사항 */
+/* 기본여백제거 */
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#222;
+}
+.blind{
+    position:absolute;
+    top:-99999px;
+}
+img{
+    vertical-align: top;
+}
+address,i,em{
+    font-style: normal;
+}
+button, label{
+    cursor:pointer;
+}
+.clearFix::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+body{
+    font-family: '아리따-돋움4.0(OTF)', sans-serif;
+    font-size: 18px;
+    color:black;
+}
+.innerBox{
+    max-width:1400px;
+    margin:0 auto;
+    /* background-color: pink; */
+}
