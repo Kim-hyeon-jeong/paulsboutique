@@ -489,7 +489,7 @@ footer p{
 
 @media screen and (max-width:400px){
     .flip-clock-wrapper {
-        padding-left: 10px;
+        padding-left: 25px;
     }
     #nav .sub {
         width:30%;
